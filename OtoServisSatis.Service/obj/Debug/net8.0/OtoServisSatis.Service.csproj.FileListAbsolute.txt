@@ -1,0 +1,13 @@
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\bin\Debug\net8.0\OtoServisSatis.Service.deps.json
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\bin\Debug\net8.0\OtoServisSatis.Service.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\bin\Debug\net8.0\OtoServisSatis.Service.pdb
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.AssemblyInfoInputs.cache
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.AssemblyInfo.cs
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.csproj.CoreCompileInputs.cache
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\refint\OtoServisSatis.Service.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.pdb
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\ref\OtoServisSatis.Service.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\bin\Debug\net8.0\OtoServisSatis.Service.runtimeconfig.json
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Service\obj\Debug\net8.0\OtoServisSatis.Service.genruntimeconfig.cache

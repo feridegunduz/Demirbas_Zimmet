@@ -1,0 +1,76 @@
+﻿@model IEnumerable<OtoServisSatis.Entities.Demirbas>
+
+@{
+    ViewData["Title"] = "Demirbaşlar";
+}
+
+<h1>Demirbaşlar</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">Yeni Demirbaş Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MarkaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kategori)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeriNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FaturaNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UrunTipi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FaturaTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZimmetliMi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notlar)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MarkaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kategori)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeriNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaturaNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrunTipi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaturaTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZimmetliMi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notlar)
+            </td>
+            <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,13 @@
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\bin\Debug\net9.0\OtoServisSatis.Entities.deps.json
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\bin\Debug\net9.0\OtoServisSatis.Entities.runtimeconfig.json
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\bin\Debug\net9.0\OtoServisSatis.Entities.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\bin\Debug\net9.0\OtoServisSatis.Entities.pdb
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.AssemblyInfoInputs.cache
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.AssemblyInfo.cs
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\refint\OtoServisSatis.Entities.dll
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.pdb
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\OtoServisSatis.Entities.genruntimeconfig.cache
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Entities\obj\Debug\net9.0\ref\OtoServisSatis.Entities.dll
