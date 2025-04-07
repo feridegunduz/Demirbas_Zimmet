@@ -9,6 +9,7 @@ C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0
 C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\OtoServisSatis.Data.AssemblyInfoInputs.cache
 C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\OtoServisSatis.Data.AssemblyInfo.cs
 C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\OtoServisSatis.Data.csproj.CoreCompileInputs.cache
+C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\OtoServisSatis.Data.sourcelink.json
 C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\OtoServi.EA7C6928.Up2Date
 C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\OtoServisSatis.Data.dll
 C:\Users\Feride\source\repos\OtoServisSatis\OtoServisSatis.Data\obj\Debug\net9.0\refint\OtoServisSatis.Data.dll

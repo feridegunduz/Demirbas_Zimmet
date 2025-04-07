@@ -12,7 +12,7 @@ namespace OtoServisSatis.Entities
         public int Id { get; set; }
 
         [MaxLength(50)]
-        [Display(Name = "Adı"), Required(ErrorMessage = "{0} Boş Bırakılamaz!")]
+        [Display(Name = "Rolü"), Required(ErrorMessage = "{0} Boş Bırakılamaz!")]
         public string Adi { get; set; }
     }
 }

@@ -1,0 +1,67 @@
+﻿@model Demirbas
+
+
+@{
+	ViewData["Title"] = Model.UrunTipi + " / " + Model.Marka.Adi;
+}
+<style>
+	span {
+		display: block;
+	}
+</style>
+
+<section class="py-5">
+	<div class="container px-4 px-lg-5 my-5">
+		<div class="row gx-4 gx-lg-5 align-items-center">
+			<div class="col-md-6">
+				<div id="carouselExampleIndicators" class="carousel slide">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="/Img/DmBas/@Model.Resim1" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="/Img/DmBas/@Model.Resim2" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="/Img/DmBas/@Model.Resim3" class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+					
+
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h1 class="display-5 fw-bolder">@ViewData["Title"]</h1>
+				<div class="fs-5 mb-5">
+					<span> Durumu: @(Model.ZimmetliMi ? "Zimmetli" : "Zimmetli Değil")</span>
+					<span> Seri Numarası: @Model.SeriNo</span>
+					<span> Fatura Tarihi: @Model.FaturaTarihi</span>
+				</div>
+				<p class="lead">@Model.Notlar</p>
+				<div class="d-flex">
+					<input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem">
+					<button class="btn btn-outline-dark flex-shrink-0" type="button">
+						<i class="bi-cart-fill me-1"></i>
+						Bilgi Al
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Modal -->
+<partial name="Kullanan" model="null" />

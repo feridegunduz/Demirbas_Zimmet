@@ -18,9 +18,11 @@ namespace OtoServisSatis.Data
         public DbSet<Entities.Rol> Roller { get; set; }
         public DbSet<Entities.Zimmet> Zimmetler { get; set; }
 
+        public DbSet<Entities.Slider> Sliders { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"server=(LocalDB)\MSSQLLocalDB; database=OtoServisSatisNetCore; integrated security=true; TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer(@"server=DESKTOP-L2S0U5A; database=OtoServisSatisNetCore; user id=sa; password=1234; TrustServerCertificate=true;");
 
             optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
 
@@ -58,19 +60,7 @@ namespace OtoServisSatis.Data
 
             });
 
-            modelBuilder.Entity<Demirbas>().HasData(new Demirbas
-            {
-                Id = 1,
-                FaturaNo = "123456",
-                FaturaTarihi = DateTime.Now,
-                Kategori = "Bilgisayar",
-                MarkaId = 1,
-                Notlar = "Notlar",
-                SeriNo = "123456",
-                UrunTipi = "Laptop",
-                ZimmetliMi = false
-
-            });
+            
 
 
             base.OnModelCreating(modelBuilder);

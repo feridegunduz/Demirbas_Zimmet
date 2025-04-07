@@ -97,6 +97,26 @@ wwwroot\admin\register.html
 wwwroot\admin\tables.html
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Img\DmBas\abajur.jpg
+wwwroot\Img\DmBas\ASSET_MMS_139860042.webp
+wwwroot\Img\DmBas\indir (1).jpg
+wwwroot\Img\DmBas\indir (2).jpg
+wwwroot\Img\DmBas\indir.jpg
+wwwroot\Img\DmBas\sarıabajur.jpg
+wwwroot\Img\DmBas\sarıışık.jpg
+wwwroot\Img\indir (1).jpg
+wwwroot\Img\indir (2).jpg
+wwwroot\Img\indir.jpg
+wwwroot\Img\Slider\6f5b502e12fc264c724b8a0125ee823a.jpg
+wwwroot\Img\Slider\797dd3a35e422e9e01666cf762eaafc9.jpg
+wwwroot\Img\Slider\ASSET_MMS_139860042.webp
+wwwroot\Img\Slider\df6148d68a2cd07d9e818bce1b1a9675.jpg
+wwwroot\Img\Slider\images (1).jpg
+wwwroot\Img\Slider\images.jpg
+wwwroot\Img\Slider\indir (1).jpg
+wwwroot\Img\Slider\indir (2).jpg
+wwwroot\Img\Slider\indir.jpg
+wwwroot\Img\Slider\unnamed.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

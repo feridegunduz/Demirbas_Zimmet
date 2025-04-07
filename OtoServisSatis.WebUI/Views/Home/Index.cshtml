@@ -1,8 +1,78 @@
-﻿@{
+﻿@model HomePageViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .carousel-item img {
+    width: 80%; /* Resimleri biraz küçült */
+    height: 80vh; /* Yüksekliği de biraz küçült */
+    object-fit: contain; /* Kırpılmayı önle, resmin tamamını göster */
+    margin: auto; /* Ortalamak için */
+    }
+
+    .carousel-inner {
+    height: 100vh; /* Slider'ı tam ekran yüksekliğinde tut */
+    display: flex;
+    align-items: center; /* İçeriği dikey olarak ortala */
+    }
+</style>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+        
+        
+
+        @foreach(var item in Model.Sliders)
+        {
+            <div class = "carousel-item @(item == Model.Sliders.FirstOrDefault() ? "active" : "")" data-bs-interval="2000" >
+                <img src="/Img/Slider/@item.Resim" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>@item.Baslik</h5>
+                    <p>@item.Aciklama</p>
+                </div>
+            </div>
+        }
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center">
+        @foreach (var item in Model.Demirbaslar)
+        {
+            <div class="col mb-5"> 
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" src="/Img/DmBas/@item.Resim1" alt="...">
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"> @item.Marka.Adi @item.UrunTipi</h5>
+                            <h6 style="color: @(item.ZimmetliMi ? "red" : "green");">
+                                @(item.ZimmetliMi ? "Zimmetli" : "Zimmetli Değil")
+                            </h6>
+
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center">
+                            <a class="btn btn-outline-dark mt-auto" href="/DmrbsDetay/Index/@item.Id"> İncele </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

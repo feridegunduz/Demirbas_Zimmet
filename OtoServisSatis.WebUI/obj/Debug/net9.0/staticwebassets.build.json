@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z+H1gmf91S0sqCFXiRL2BRvc/9zW6rlbluJJjSfqtoQ=",
+  "Hash": "NuYoBg5Qc3Q68r8goY/5CibpuD1mMMZvm1yu8JUcgYQ=",
   "Source": "OtoServisSatis.WebUI",
   "BasePath": "_content/OtoServisSatis.WebUI",
   "Mode": "Default",
@@ -2178,6 +2178,426 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\abajur.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/abajur#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i0fzty3mge",
+      "Integrity": "PhQnng6GFKbGuf3bN1f8oXeXLxlhxRQJ9qjXVpUv1hk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\abajur.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\ASSET_MMS_139860042.webp",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/ASSET_MMS_139860042#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c442hdb903",
+      "Integrity": "pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\ASSET_MMS_139860042.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir (1).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/indir (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eqdfqkeo9m",
+      "Integrity": "ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\indir (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir (2).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/indir (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wp7d6exzcg",
+      "Integrity": "VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\indir (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/indir#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjm8jiys4n",
+      "Integrity": "K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\indir.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\sarıabajur.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/sarıabajur#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iirjkd0kr9",
+      "Integrity": "CvqkUHFvTBUJaDphA10Muc43C1cVf4nRSNV8Ej7Ih14=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\sarıabajur.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\sarıışık.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/DmBas/sarıışık#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qqnqad809z",
+      "Integrity": "Tud0zj1ztkO8g+5EUJUkzLSZIvtB4d9iqoElx2s+3E4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\DmBas\\sarıışık.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir (1).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/indir (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eqdfqkeo9m",
+      "Integrity": "ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\indir (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir (2).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/indir (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wp7d6exzcg",
+      "Integrity": "VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\indir (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/indir#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjm8jiys4n",
+      "Integrity": "K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\indir.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\6f5b502e12fc264c724b8a0125ee823a.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/6f5b502e12fc264c724b8a0125ee823a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9et5m78zye",
+      "Integrity": "70mIwHBcdTPYsW1No0Hh1DbjNI8HjmBErGa2A6QO0ro=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\6f5b502e12fc264c724b8a0125ee823a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\797dd3a35e422e9e01666cf762eaafc9.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/797dd3a35e422e9e01666cf762eaafc9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "739634gk6r",
+      "Integrity": "fRmEzOhR5uHkytyvu3oE+QnX1PwxU/ZmCujOKL/t/+k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\797dd3a35e422e9e01666cf762eaafc9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\ASSET_MMS_139860042.webp",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/ASSET_MMS_139860042#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c442hdb903",
+      "Integrity": "pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\ASSET_MMS_139860042.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\df6148d68a2cd07d9e818bce1b1a9675.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/df6148d68a2cd07d9e818bce1b1a9675#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2uefl2dumt",
+      "Integrity": "Jjq82d/VOPSUfl1zlnTpbPphEolIQmd/dIv2dtL6HLI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\df6148d68a2cd07d9e818bce1b1a9675.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\images (1).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/images (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xxo7fv8tvu",
+      "Integrity": "BYUslx1rOh9OC3p9wuwMAPe/CYpZkdZHy1TTLvYBm+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\images (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\images.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/images#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yo3w0izg6j",
+      "Integrity": "Tm0UmsFRRoST0Alr4zXp3DdGuhQZ+hUtC5mslPv6p8E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\images.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir (1).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/indir (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eqdfqkeo9m",
+      "Integrity": "ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\indir (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir (2).jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/indir (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wp7d6exzcg",
+      "Integrity": "VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\indir (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/indir#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vjm8jiys4n",
+      "Integrity": "K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\indir.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\unnamed.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Img/Slider/unnamed#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7plktyztjs",
+      "Integrity": "JeAgRqjzeky9KMc5XqUaXh01VrHa/txq4Cx5jC/ptew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Slider\\unnamed.jpg"
     },
     {
       "Identity": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\js\\site.js",
@@ -9654,6 +10074,1646 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/abajur.i0fzty3mge.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\abajur.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PhQnng6GFKbGuf3bN1f8oXeXLxlhxRQJ9qjXVpUv1hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i0fzty3mge"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/abajur.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhQnng6GFKbGuf3bN1f8oXeXLxlhxRQJ9qjXVpUv1hk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/abajur.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\abajur.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PhQnng6GFKbGuf3bN1f8oXeXLxlhxRQJ9qjXVpUv1hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhQnng6GFKbGuf3bN1f8oXeXLxlhxRQJ9qjXVpUv1hk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/ASSET_MMS_139860042.c442hdb903.webp",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\ASSET_MMS_139860042.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c442hdb903"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/ASSET_MMS_139860042.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/ASSET_MMS_139860042.webp",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\ASSET_MMS_139860042.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/indir (1).eqdfqkeo9m.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqdfqkeo9m"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/indir (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/indir (1).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/indir (2).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/indir (2).wp7d6exzcg.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wp7d6exzcg"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/indir (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/indir.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/indir.vjm8jiys4n.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\indir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 08:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjm8jiys4n"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/indir.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/sarıabajur.iirjkd0kr9.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\sarıabajur.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CvqkUHFvTBUJaDphA10Muc43C1cVf4nRSNV8Ej7Ih14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iirjkd0kr9"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/sarıabajur.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CvqkUHFvTBUJaDphA10Muc43C1cVf4nRSNV8Ej7Ih14="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/sarıabajur.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\sarıabajur.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CvqkUHFvTBUJaDphA10Muc43C1cVf4nRSNV8Ej7Ih14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CvqkUHFvTBUJaDphA10Muc43C1cVf4nRSNV8Ej7Ih14="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/sarıışık.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\sarıışık.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tud0zj1ztkO8g+5EUJUkzLSZIvtB4d9iqoElx2s+3E4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tud0zj1ztkO8g+5EUJUkzLSZIvtB4d9iqoElx2s+3E4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/DmBas/sarıışık.qqnqad809z.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\DmBas\\sarıışık.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tud0zj1ztkO8g+5EUJUkzLSZIvtB4d9iqoElx2s+3E4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qqnqad809z"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/DmBas/sarıışık.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tud0zj1ztkO8g+5EUJUkzLSZIvtB4d9iqoElx2s+3E4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir (1).eqdfqkeo9m.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqdfqkeo9m"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/indir (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir (1).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir (2).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir (2).wp7d6exzcg.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wp7d6exzcg"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/indir (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir.vjm8jiys4n.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\indir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:59:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjm8jiys4n"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/indir.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/6f5b502e12fc264c724b8a0125ee823a.9et5m78zye.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\6f5b502e12fc264c724b8a0125ee823a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"70mIwHBcdTPYsW1No0Hh1DbjNI8HjmBErGa2A6QO0ro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9et5m78zye"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/6f5b502e12fc264c724b8a0125ee823a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-70mIwHBcdTPYsW1No0Hh1DbjNI8HjmBErGa2A6QO0ro="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/6f5b502e12fc264c724b8a0125ee823a.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\6f5b502e12fc264c724b8a0125ee823a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"70mIwHBcdTPYsW1No0Hh1DbjNI8HjmBErGa2A6QO0ro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-70mIwHBcdTPYsW1No0Hh1DbjNI8HjmBErGa2A6QO0ro="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/797dd3a35e422e9e01666cf762eaafc9.739634gk6r.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\797dd3a35e422e9e01666cf762eaafc9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fRmEzOhR5uHkytyvu3oE+QnX1PwxU/ZmCujOKL/t/+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "739634gk6r"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/797dd3a35e422e9e01666cf762eaafc9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fRmEzOhR5uHkytyvu3oE+QnX1PwxU/ZmCujOKL/t/+k="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/797dd3a35e422e9e01666cf762eaafc9.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\797dd3a35e422e9e01666cf762eaafc9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fRmEzOhR5uHkytyvu3oE+QnX1PwxU/ZmCujOKL/t/+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fRmEzOhR5uHkytyvu3oE+QnX1PwxU/ZmCujOKL/t/+k="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/ASSET_MMS_139860042.c442hdb903.webp",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\ASSET_MMS_139860042.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 12:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c442hdb903"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/ASSET_MMS_139860042.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/ASSET_MMS_139860042.webp",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\ASSET_MMS_139860042.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 12:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pIl+dNEvndub65JlkD4w7lKYcButkUcXfYWF7loNsiE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/df6148d68a2cd07d9e818bce1b1a9675.2uefl2dumt.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\df6148d68a2cd07d9e818bce1b1a9675.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jjq82d/VOPSUfl1zlnTpbPphEolIQmd/dIv2dtL6HLI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:57:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2uefl2dumt"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/df6148d68a2cd07d9e818bce1b1a9675.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jjq82d/VOPSUfl1zlnTpbPphEolIQmd/dIv2dtL6HLI="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/df6148d68a2cd07d9e818bce1b1a9675.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\df6148d68a2cd07d9e818bce1b1a9675.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jjq82d/VOPSUfl1zlnTpbPphEolIQmd/dIv2dtL6HLI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:57:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jjq82d/VOPSUfl1zlnTpbPphEolIQmd/dIv2dtL6HLI="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/images (1).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\images (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BYUslx1rOh9OC3p9wuwMAPe/CYpZkdZHy1TTLvYBm+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:59:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYUslx1rOh9OC3p9wuwMAPe/CYpZkdZHy1TTLvYBm+I="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/images (1).xxo7fv8tvu.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\images (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BYUslx1rOh9OC3p9wuwMAPe/CYpZkdZHy1TTLvYBm+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:59:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxo7fv8tvu"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/images (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYUslx1rOh9OC3p9wuwMAPe/CYpZkdZHy1TTLvYBm+I="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/images.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tm0UmsFRRoST0Alr4zXp3DdGuhQZ+hUtC5mslPv6p8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:58:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tm0UmsFRRoST0Alr4zXp3DdGuhQZ+hUtC5mslPv6p8E="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/images.yo3w0izg6j.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tm0UmsFRRoST0Alr4zXp3DdGuhQZ+hUtC5mslPv6p8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 13:58:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yo3w0izg6j"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/images.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tm0UmsFRRoST0Alr4zXp3DdGuhQZ+hUtC5mslPv6p8E="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/indir (1).eqdfqkeo9m.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 12:00:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqdfqkeo9m"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/indir (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/indir (1).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 12:00:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugL8xGpZ50OpK+Hgl9Wz9GRfKMaY2yvEgREVGGo0Rnk="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/indir (2).jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 11:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/indir (2).wp7d6exzcg.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 11:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wp7d6exzcg"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/indir (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPY3kFCcCPo185jZFU3cdhqmJyFPyrshAylu+FvhQyg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/indir.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 11:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/indir.vjm8jiys4n.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\indir.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 11:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vjm8jiys4n"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/indir.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K79b3bnPCjtNOnVwKta/286QY/9kpcYSP+4oWkqrMdg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/unnamed.7plktyztjs.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\unnamed.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeAgRqjzeky9KMc5XqUaXh01VrHa/txq4Cx5jC/ptew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 08:17:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7plktyztjs"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Slider/unnamed.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeAgRqjzeky9KMc5XqUaXh01VrHa/txq4Cx5jC/ptew="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Slider/unnamed.jpg",
+      "AssetFile": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.WebUI\\wwwroot\\Img\\Slider\\unnamed.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeAgRqjzeky9KMc5XqUaXh01VrHa/txq4Cx5jC/ptew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 08:17:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeAgRqjzeky9KMc5XqUaXh01VrHa/txq4Cx5jC/ptew="
         }
       ]
     },
@@ -26750,7 +28810,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26803,7 +28863,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26840,7 +28900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26887,7 +28947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26948,7 +29008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26993,7 +29053,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27048,7 +29108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27109,7 +29169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27154,7 +29214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27209,7 +29269,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27262,7 +29322,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27299,7 +29359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 14:38:39 GMT"
+          "Value": "Fri, 21 Mar 2025 08:46:14 GMT"
         },
         {
           "Name": "Cache-Control",

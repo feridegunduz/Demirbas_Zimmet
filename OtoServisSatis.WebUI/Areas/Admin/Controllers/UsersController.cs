@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using OtoServisSatis.Entities;
@@ -7,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")] //markalara sadece admin erişebilir
 
     public class UsersController : Controller
     {
 
-        private readonly IService<Kullanici> _service;
+        private readonly IUserService _service;
         private readonly IService<Rol> _serviceRol;
 
 
-        public UsersController(IService<Kullanici> service, IService<Rol> serviceRol)
+        public UsersController(IUserService service, IService<Rol> serviceRol)
         {
             _service = service;
             _serviceRol = serviceRol;
@@ -25,7 +26,7 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
         // GET: UsersController
         public async Task<ActionResult> IndexAsync()
         {
-            var model = await _service.GetAllAsync();
+            var model = await _service.GetCustomList();
             return View(model);
         }
 

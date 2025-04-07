@@ -1,0 +1,38 @@
+﻿@model OtoServisSatis.Entities.Zimmet
+
+@{
+    ViewData["Title"] = "Sil";
+}
+
+
+<h3>Emin misiniz?</h3>
+<div>
+    <h4>Zimmet</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MusteriId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MusteriId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZimmetTarihi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZimmetTarihi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Demirbas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Demirbas.UrunTipi)
+        </dd>
+    </dl>
+    
+    <form asp-action="Sil">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a asp-action="Index">Vazgeç</a>
+    </form>
+</div>

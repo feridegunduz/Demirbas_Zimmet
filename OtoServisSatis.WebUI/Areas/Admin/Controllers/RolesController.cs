@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OtoServisSatis.Entities;
 using OtoServisSatis.Service.Abstract;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
 {
 
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")] //markalara sadece admin erişebilir
 
     public class RolesController : Controller
     {

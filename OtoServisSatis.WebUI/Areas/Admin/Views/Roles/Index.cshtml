@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<OtoServisSatis.Entities.Rol>
 
 @{
-	ViewData["Title"] = "Roller";
+	ViewData["Title"] = "Unvanlar";
 }
 
-<h1>Roller</h1>
+<h1>Unvanlar</h1>
 
 <p>
     <a class="btn btn-outline-primary" asp-action="Create">Yeni Ekle</a>
@@ -20,6 +20,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
+
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Adi)

@@ -29,7 +29,7 @@
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#!">Ayarlar</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#!">Oturumu Kapat</a></li>
+                    <li><a class="dropdown-item" href="/Admin/Login/Logout">Oturumu Kapat</a></li>
                 </ul>
             </li>
         </ul>
@@ -43,37 +43,50 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <div class="sb-sidenav-menu-heading">Dashboard</div>
                         <a class="nav-link" href="/Admin/">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                  Ana Ekran                        
                         </a>
+                        <a class="nav-link" href="/Admin/Sliders">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Slider Yönetim
+                        </a>
                         <div class="sb-sidenav-menu-heading">Menü</div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                            Rol Yönetimi
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            Unvan Yönetimi
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="/Admin/Roles">Roller</a>
-                                <a class="nav-link" href="/Admin/Roles/Create">Rol Ekle</a>
+                                <a class="nav-link" href="/Admin/Roles">Unvanlar</a>
+                                <a class="nav-link" href="/Admin/Roles/Create">Unvan Ekle</a>
                             </nav>
                         </div>
-                      
-
+                     
                         <a class="nav-link" href="/Admin/Users">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Kullanıcılar
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-person"></i></div>
+                            Personeller
                         </a>
                         <a class="nav-link" href="/Admin/Brands">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-tags"></i></div>
                             Markalar
                         </a>
 
                         <a class="nav-link" href="/Admin/Demirbas">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-shop"></i></div>
                             Demirbaşlar
+                        </a>
+
+                        <a class="nav-link" href="/Admin/Owners">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-street-view"></i></div>
+                            Zimmetli Personeller
+                        </a>
+
+                        <a class="nav-link" href="/Admin/Zimmet">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-desktop"></i></div>
+                            Zimmetler
                         </a>
 
                     </div>
@@ -98,11 +111,7 @@
 
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - OtoServisSatis.WebUI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

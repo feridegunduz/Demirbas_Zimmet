@@ -17,7 +17,7 @@ namespace OtoServisSatis.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.2")
+                .HasAnnotation("ProductVersion", "9.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -35,8 +35,8 @@ namespace OtoServisSatis.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<DateOnly>("FaturaTarihi")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("FaturaTarihi")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Kategori")
                         .IsRequired()
@@ -50,6 +50,18 @@ namespace OtoServisSatis.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Resim1")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Resim2")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Resim3")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("SeriNo")
                         .IsRequired()
@@ -172,6 +184,9 @@ namespace OtoServisSatis.Data.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<Guid?>("UserGuid")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.HasIndex("RolId");
@@ -184,13 +199,14 @@ namespace OtoServisSatis.Data.Migrations
                             Id = 2,
                             Adi = "Feride",
                             AktifMi = true,
-                            EklenmeTarihi = new DateTime(2025, 3, 3, 13, 45, 50, 972, DateTimeKind.Local).AddTicks(1590),
+                            EklenmeTarihi = new DateTime(2025, 3, 25, 13, 40, 58, 362, DateTimeKind.Local).AddTicks(5514),
                             Email = "feride@gmail.com",
                             KullaniciAdi = "feridegndz",
                             RolId = 1,
                             Sifre = "123456",
                             Soyadi = "Gündüz",
-                            Telefon = "1234567890"
+                            Telefon = "1234567890",
+                            UserGuid = new Guid("8340503b-e64e-46df-9723-85fa4d568728")
                         });
                 });
 
@@ -235,6 +251,35 @@ namespace OtoServisSatis.Data.Migrations
                             Id = 1,
                             Adi = "Admin"
                         });
+                });
+
+            modelBuilder.Entity("OtoServisSatis.Entities.Slider", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Aciklama")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Baslik")
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<string>("Link")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Resim")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Zimmet", b =>
