@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -41,6 +43,10 @@ namespace OtoServisSatis.Entities
         public Rol? Rol { get; set; }
 
         public Guid? UserGuid { get; set; } = Guid.NewGuid();
+
+        [MaxLength(250)]
+        [Display(Name = "Profil Fotoğrafı")]
+        public string? ProfilFoto { get; set; }
 
 
 

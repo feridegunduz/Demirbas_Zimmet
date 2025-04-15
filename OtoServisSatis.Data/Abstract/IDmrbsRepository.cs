@@ -15,5 +15,6 @@ namespace OtoServisSatis.Data.Abstract
 
         Task<Demirbas> GetCustomDmrbs(int id);
 
+
     }
 }

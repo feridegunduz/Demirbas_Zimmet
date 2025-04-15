@@ -17,10 +17,17 @@ namespace OtoServisSatis.Entities
         public int MarkaId { get; set; } = 1;
 
 
-        [StringLength(50) , Required(ErrorMessage = "{0} Boş Bırakılamaz!")]
-        public string Kategori { get; set; }
+  
 
-        
+
+        [Display(Name = "Kategori"), Required(ErrorMessage = "{0} Boş bırakılamaz!")]
+        public int KategoriId { get; set; }
+
+        public Kategori? Kategori { get; set; }
+
+
+
+
         [MaxLength(50)] //Maksimum 50 karakter
         [Display(Name = "Seri Numarası")]
         [Required(ErrorMessage = "{0} Boş Bırakılamaz!")]
@@ -72,14 +79,6 @@ namespace OtoServisSatis.Entities
 
 
      
-
-     
-     
-     
-
-
-
-
 
 
 

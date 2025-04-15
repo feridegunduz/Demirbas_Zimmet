@@ -1,0 +1,20 @@
+﻿@model OtoServisSatis.Entities.Kategori
+
+@{
+    ViewData["Title"] = "Kategori Düzenle";
+}
+
+<h2>Kategori Güncelle</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Adi" class="control-label"></label>
+        <input asp-for="Adi" class="form-control" />
+        <span asp-validation-for="Adi" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Güncelle</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

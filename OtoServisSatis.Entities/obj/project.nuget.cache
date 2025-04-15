@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mm8fIvSGgTw=",
+  "dgSpecHash": "oY4DTpbwCJc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.Entities\\OtoServisSatis.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.Entities\\OtoServisSatis.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Feride\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Feride\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

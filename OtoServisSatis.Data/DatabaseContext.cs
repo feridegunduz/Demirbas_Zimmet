@@ -14,6 +14,8 @@ namespace OtoServisSatis.Data
         public DbSet<Entities.Demirbas> Demirbaslar { get; set; }
         public DbSet<Entities.Kullanici> Kullanicilar { get; set; }
         public DbSet<Entities.Marka> Markalar { get; set; }
+        public DbSet<Kategori> Kategoriler { get; set; }
+
         public DbSet<Entities.Kullanan> Kullananlar { get; set; }
         public DbSet<Entities.Rol> Roller { get; set; }
         public DbSet<Entities.Zimmet> Zimmetler { get; set; }

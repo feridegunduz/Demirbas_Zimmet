@@ -38,10 +38,8 @@ namespace OtoServisSatis.Data.Migrations
                     b.Property<DateTime>("FaturaTarihi")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Kategori")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int>("KategoriId")
+                        .HasColumnType("int");
 
                     b.Property<int>("MarkaId")
                         .HasColumnType("int");
@@ -78,9 +76,29 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("KategoriId");
+
                     b.HasIndex("MarkaId");
 
                     b.ToTable("Demirbaslar");
+                });
+
+            modelBuilder.Entity("OtoServisSatis.Entities.Kategori", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Adi")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Kategoriler");
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Kullanan", b =>
@@ -199,14 +217,14 @@ namespace OtoServisSatis.Data.Migrations
                             Id = 2,
                             Adi = "Feride",
                             AktifMi = true,
-                            EklenmeTarihi = new DateTime(2025, 3, 25, 13, 40, 58, 362, DateTimeKind.Local).AddTicks(5514),
+                            EklenmeTarihi = new DateTime(2025, 4, 14, 10, 4, 43, 955, DateTimeKind.Local).AddTicks(4967),
                             Email = "feride@gmail.com",
                             KullaniciAdi = "feridegndz",
                             RolId = 1,
                             Sifre = "123456",
                             Soyadi = "Gündüz",
                             Telefon = "1234567890",
-                            UserGuid = new Guid("8340503b-e64e-46df-9723-85fa4d568728")
+                            UserGuid = new Guid("94bf8281-e710-47ef-9e3a-7ef4a4e34a3b")
                         });
                 });
 
@@ -313,11 +331,19 @@ namespace OtoServisSatis.Data.Migrations
 
             modelBuilder.Entity("OtoServisSatis.Entities.Demirbas", b =>
                 {
+                    b.HasOne("OtoServisSatis.Entities.Kategori", "Kategori")
+                        .WithMany()
+                        .HasForeignKey("KategoriId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("OtoServisSatis.Entities.Marka", "Marka")
                         .WithMany()
                         .HasForeignKey("MarkaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Kategori");
 
                     b.Navigation("Marka");
                 });

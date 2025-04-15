@@ -40,6 +40,8 @@
             <th>
                 @Html.DisplayNameFor(model => model.Rol.Adi) 
             </th>
+            <th>Profil Fotoğrafı</th>
+
             <th></th>
         </tr>
     </thead>
@@ -74,6 +76,13 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Rol.Adi)
                 </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ProfilFoto))
+                    {
+                        <img src="@item.ProfilFoto" width="50" height="50" class="rounded-circle" />
+                    }
+                </td>
+
                 <td>
                         <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
                         <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>

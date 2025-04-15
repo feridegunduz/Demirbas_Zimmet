@@ -4,63 +4,84 @@
     ViewData["Title"] = "Hesap Bilgilerim";
 }
 
-
-
-
-<h1>Hesap Bilgilerim</h1>
-
+<h2 class="text-center mt-4 mb-4">Hesap Bilgilerim</h2>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="UserUpdate">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <!--
-            <input type="hidden" asp-for="Id" />
-            <input type="hidden" asp-for="EklenmeTarihi" />
-            <input type="hidden" asp-for="UserGuid" />
-            <input type="hidden" asp-for="RolId" />
 
-             --> 
-             
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-lg rounded-3">
+            <div class="card-body">
+                <form asp-action="UserUpdate">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-             <!--   -->
+                    <!-- Gerekirse aşağıdaki hidden input'lar açılabilir -->
+                    @* <input type="hidden" asp-for="Id" />
+                       <input type="hidden" asp-for="EklenmeTarihi" />
+                       <input type="hidden" asp-for="UserGuid" />
+                       <input type="hidden" asp-for="RolId" /> *@
 
-            <div class="form-group">
-                <label asp-for="Adi" class="control-label"></label>
-                <input asp-for="Adi" class="form-control" />
-                <span asp-validation-for="Adi" class="text-danger"></span>
-            </div>
 
-            <div class="form-group">
-                <label asp-for="Soyadi" class="control-label"></label>
-                <input asp-for="Soyadi" class="form-control" />
-                <span asp-validation-for="Soyadi" class="text-danger"></span>
+                    <!-- Profil Fotoğrafı -->
+                    <div class="form-group mb-3 text-center">
+                        @if (!string.IsNullOrEmpty(Model.ProfilFoto))
+                        {
+                            <img src="@Model.ProfilFoto" width="100" class="img-thumbnail mb-2" />
+                            <form asp-action="ProfilFotoSil" method="post">
+                                <input type="hidden" name="id" value="@Model.Id" />
+                                <button type="submit" class="btn btn-sm btn-outline-danger">Fotoğrafı Kaldır</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <p class="text-muted">Henüz bir profil fotoğrafı eklemediniz.</p>
+                        }
+
+                        <div class="mt-2">
+                            <label class="form-label">Yeni Profil Fotoğrafı</label>
+                            <input type="file" name="ProfilResim" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Adi" class="form-label"></label>
+                        <input asp-for="Adi" class="form-control" />
+                        <span asp-validation-for="Adi" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Soyadi" class="form-label"></label>
+                        <input asp-for="Soyadi" class="form-control" />
+                        <span asp-validation-for="Soyadi" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Telefon" class="form-label"></label>
+                        <input asp-for="Telefon" class="form-control" />
+                        <span asp-validation-for="Telefon" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Sifre" class="form-label"></label>
+                        <input asp-for="Sifre" type="password" class="form-control" />
+                        <span asp-validation-for="Sifre" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" asp-for="AktifMi" />
+                        <label class="form-check-label" asp-for="AktifMi">@Html.DisplayNameFor(m => m.AktifMi)</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Kaydet</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Telefon" class="control-label"></label>
-                <input asp-for="Telefon" class="form-control" />
-                <span asp-validation-for="Telefon" class="text-danger"></span>
-            </div>
-           
-            <div class="form-group">
-                <label asp-for="Sifre" class="control-label"></label>
-                <input asp-for="Sifre" class="form-control" />
-                <span asp-validation-for="Sifre" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="AktifMi" /> @Html.DisplayNameFor(model => model.AktifMi)
-                </label>
-            </div>
-        
-            <div class="form-group">
-                <input type="submit" value="Kaydet" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>

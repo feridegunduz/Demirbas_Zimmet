@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gFFdYO+JGwc=",
+  "dgSpecHash": "K4qyoEvQW+Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Feride\\source\\repos\\OtoServisSatis\\OtoServisSatis.Data\\OtoServisSatis.Data.csproj",
+  "projectFilePath": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.Data\\OtoServisSatis.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Feride\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Feride\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

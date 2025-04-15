@@ -16,11 +16,15 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
 
         private readonly IDmrbsService _service;
         private readonly IService<Marka> _serviceMarka;
+        private readonly IService<Kategori> _serviceKategori;
 
-        public DemirbasController(IDmrbsService service, IService<Marka> serviceMarka)
+
+        public DemirbasController(IDmrbsService service, IService<Marka> serviceMarka, IService<Kategori> serviceKategori)
         {
             _service = service;
             _serviceMarka = serviceMarka;
+            _serviceKategori = serviceKategori;
+
         }
 
 
@@ -41,6 +45,8 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
         public async Task<ActionResult> Create()
         {
             ViewBag.MarkaId = new SelectList(await _serviceMarka.GetAllAsync(), "Id", "Adi");
+            ViewBag.KategoriId = new SelectList(await _serviceKategori.GetAllAsync(), "Id", "Adi");
+
             return View();
         }
 
@@ -70,6 +76,11 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
             }
 
             ViewBag.MarkaId = new SelectList(await _serviceMarka.GetAllAsync(), "Id", "Adi");
+            ViewBag.KategoriId = new SelectList(await _serviceKategori.GetAllAsync(), "Id", "Adi", demirbas.KategoriId);
+            if (demirbas.FaturaTarihi > DateTime.Today)
+            {
+                ModelState.AddModelError("FaturaTarihi", "Fatura tarihi bugünden ileri olamaz.");
+            }
 
             return View(demirbas);
         }
@@ -79,6 +90,8 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
         {
 
             ViewBag.MarkaId = new SelectList(await _serviceMarka.GetAllAsync(), "Id", "Adi");
+            ViewBag.KategoriId = new SelectList(await _serviceKategori.GetAllAsync(), "Id", "Adi");
+
             var model = await _service.FindAsync(id);
             return View(model);
         }
@@ -121,6 +134,8 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
             }
 
             ViewBag.MarkaId = new SelectList(await _serviceMarka.GetAllAsync(), "Id", "Adi");
+            ViewBag.KategoriId = new SelectList(await _serviceKategori.GetAllAsync(), "Id", "Adi", demirbas.KategoriId);
+
             return View(demirbas);
         }
 

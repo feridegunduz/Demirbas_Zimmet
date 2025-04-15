@@ -9,7 +9,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <input type="hidden" asp-for="EklenmeTarihi" />
@@ -44,7 +44,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Sifre" class="control-label"></label>
-                <input asp-for="Sifre" class="form-control" />
+                <input asp-for="Sifre" class="form-control" type="password" />
                 <span asp-validation-for="Sifre" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
@@ -57,6 +57,29 @@
                 <select asp-for="RolId" class="form-select" asp-items="ViewBag.RolId"></select>
                 <span asp-validation-for="RolId" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label class="control-label">Yeni Profil Fotoğrafı</label>
+                <input type="file" name="ProfilResim" class="form-control" />
+            </div>
+            @if (!string.IsNullOrEmpty(Model.ProfilFoto))
+            {
+                <div class="form-group">
+                    <label class="control-label">Mevcut Profil Fotoğrafı</label><br />
+                    <img src="@Model.ProfilFoto" width="120" class="img-thumbnail" />
+                </div>
+            }
+            @if (!string.IsNullOrEmpty(Model.ProfilFoto))
+            {
+                <div class="form-group">
+                    <label class="control-label">Mevcut Profil Fotoğrafı</label><br />
+                    <img src="@Model.ProfilFoto" width="120" class="img-thumbnail" /><br /><br />
+                    <form asp-action="ProfilFotoSil" method="post">
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <button type="submit" class="btn btn-outline-danger">Fotoğrafı Kaldır</button>
+                    </form>
+                </div>
+            }
+
             <div class="form-group">
                 <input type="submit" value="Kaydet" class="btn btn-primary" />
             </div>
