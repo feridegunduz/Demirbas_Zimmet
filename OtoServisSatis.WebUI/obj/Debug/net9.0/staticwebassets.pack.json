@@ -233,6 +233,30 @@
       "PackagePath": "staticwebassets\\Img\\indir.jpg"
     },
     {
+      "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png"
+    },
+    {
+      "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3c596d63-1280-4e43-a02a-bcd3d3589eda.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\3c596d63-1280-4e43-a02a-bcd3d3589eda.png"
+    },
+    {
+      "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\534a4c91-1410-420d-be28-0179d0ea24c7.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\534a4c91-1410-420d-be28-0179d0ea24c7.png"
+    },
+    {
+      "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png"
+    },
+    {
+      "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png"
+    },
+    {
       "Id": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\admin\\401.html",
       "PackagePath": "staticwebassets\\admin\\401.html"
     },

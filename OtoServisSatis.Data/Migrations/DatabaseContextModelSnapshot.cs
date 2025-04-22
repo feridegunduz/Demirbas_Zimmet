@@ -17,7 +17,7 @@ namespace OtoServisSatis.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0")
+                .HasAnnotation("ProductVersion", "9.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -38,8 +38,10 @@ namespace OtoServisSatis.Data.Migrations
                     b.Property<DateTime>("FaturaTarihi")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("KategoriId")
-                        .HasColumnType("int");
+                    b.Property<string>("Kategori")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("MarkaId")
                         .HasColumnType("int");
@@ -76,29 +78,9 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("KategoriId");
-
                     b.HasIndex("MarkaId");
 
-                    b.ToTable("Demirbaslar");
-                });
-
-            modelBuilder.Entity("OtoServisSatis.Entities.Kategori", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Adi")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Kategoriler");
+                    b.ToTable("Demirbaslar", (string)null);
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Kullanan", b =>
@@ -154,7 +136,7 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasIndex("DemirbasId1");
 
-                    b.ToTable("Kullananlar");
+                    b.ToTable("Kullananlar", (string)null);
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Kullanici", b =>
@@ -202,14 +184,11 @@ namespace OtoServisSatis.Data.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<Guid?>("UserGuid")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
 
                     b.HasIndex("RolId");
 
-                    b.ToTable("Kullanicilar");
+                    b.ToTable("Kullanicilar", (string)null);
 
                     b.HasData(
                         new
@@ -217,14 +196,13 @@ namespace OtoServisSatis.Data.Migrations
                             Id = 2,
                             Adi = "Feride",
                             AktifMi = true,
-                            EklenmeTarihi = new DateTime(2025, 4, 14, 10, 4, 43, 955, DateTimeKind.Local).AddTicks(4967),
+                            EklenmeTarihi = new DateTime(2025, 3, 12, 16, 59, 46, 148, DateTimeKind.Local).AddTicks(3243),
                             Email = "feride@gmail.com",
                             KullaniciAdi = "feridegndz",
                             RolId = 1,
                             Sifre = "123456",
                             Soyadi = "Gündüz",
-                            Telefon = "1234567890",
-                            UserGuid = new Guid("94bf8281-e710-47ef-9e3a-7ef4a4e34a3b")
+                            Telefon = "1234567890"
                         });
                 });
 
@@ -243,7 +221,7 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Markalar");
+                    b.ToTable("Markalar", (string)null);
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Rol", b =>
@@ -261,7 +239,7 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roller");
+                    b.ToTable("Roller", (string)null);
 
                     b.HasData(
                         new
@@ -297,7 +275,7 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Zimmet", b =>
@@ -326,24 +304,16 @@ namespace OtoServisSatis.Data.Migrations
 
                     b.HasIndex("KullananId");
 
-                    b.ToTable("Zimmetler");
+                    b.ToTable("Zimmetler", (string)null);
                 });
 
             modelBuilder.Entity("OtoServisSatis.Entities.Demirbas", b =>
                 {
-                    b.HasOne("OtoServisSatis.Entities.Kategori", "Kategori")
-                        .WithMany()
-                        .HasForeignKey("KategoriId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("OtoServisSatis.Entities.Marka", "Marka")
                         .WithMany()
                         .HasForeignKey("MarkaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Kategori");
 
                     b.Navigation("Marka");
                 });

@@ -11,8 +11,10 @@ using OtoServisSatis.Data;
 
 namespace OtoServisSatis.Data.Migrations
 {
+
     [DbContext(typeof(DatabaseContext))]
     [Migration("20250305072846_yenivtbgltsı")]
+
     partial class yenivtbgltsı
     {
         /// <inheritdoc />

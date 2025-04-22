@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using System.IO;
-
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -32,11 +30,15 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
             return View(model);
         }
 
+
+
         // GET: UsersController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
+
+
 
         // GET: UsersController/Create
         public async Task<ActionResult> CreateAsync()
@@ -45,28 +47,34 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
             return View();
         }
 
+        // POST: UsersController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> CreateAsync(Kullanici kullanici, IFormFile? ProfilResim)
         {
             if (ModelState.IsValid)
             {
-                if (ProfilResim != null)
+                try
                 {
-                    var fileName = Guid.NewGuid() + Path.GetExtension(ProfilResim.FileName);
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/Users", fileName);
-
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    if (ProfilResim != null)
                     {
-                        await ProfilResim.CopyToAsync(stream);
+                        var fileName = Guid.NewGuid() + Path.GetExtension(ProfilResim.FileName);
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/Users", fileName);
+
+                        using (var stream = new FileStream(path, FileMode.Create))
+                            await ProfilResim.CopyToAsync(stream);
+
+                        kullanici.ProfilFoto = "/Uploads/Users/" + fileName;
                     }
 
-                    kullanici.ProfilFoto = "/Uploads/Users/" + fileName;
+                    await _service.AddAsync(kullanici);
+                    await _service.SaveAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-
-                await _service.AddAsync(kullanici);
-                await _service.SaveAsync();
-                return RedirectToAction(nameof(Index));
+                catch
+                {
+                    ModelState.AddModelError("", "Kullanıcı eklenirken hata oluştu.");
+                }
             }
 
             ViewBag.RolId = new SelectList(await _serviceRol.GetAllAsync(), "Id", "Adi");
@@ -80,8 +88,9 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
             var model = await _service.FindAsync(id);
             ViewBag.RolId = new SelectList(await _serviceRol.GetAllAsync(), "Id", "Adi");
 
-            return View();
+            return View(model);
         }
+
 
         // POST: UsersController/Edit/5
         [HttpPost]
@@ -92,33 +101,30 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
-                    var mevcut = await _service.FindAsync(id);
-                    if (mevcut == null) return NotFound();
 
                     if (ProfilResim != null)
                     {
-                        // Eski resmi sil
-                        if (!string.IsNullOrEmpty(mevcut.ProfilFoto))
-                        {
-                            var oldPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", mevcut.ProfilFoto.TrimStart('/'));
-                            if (System.IO.File.Exists(oldPath))
-                                System.IO.File.Delete(oldPath);
-                        }
-
-                        // Yeni resmi yükle
                         var fileName = Guid.NewGuid() + Path.GetExtension(ProfilResim.FileName);
                         var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/Users", fileName);
 
-                        using (var stream = new FileStream(path, FileMode.Create))
+                        // Klasör var mı kontrol et, yoksa oluştur
+                        var directory = Path.GetDirectoryName(path);
+                        if (!Directory.Exists(directory))
                         {
-                            await ProfilResim.CopyToAsync(stream);
+                            Directory.CreateDirectory(directory);
                         }
+
+                        using (var stream = new FileStream(path, FileMode.Create))
+                            await ProfilResim.CopyToAsync(stream);
 
                         kullanici.ProfilFoto = "/Uploads/Users/" + fileName;
                     }
+
                     else
                     {
-                        kullanici.ProfilFoto = mevcut.ProfilFoto;
+                        // Fotoğraf yüklenmemişse önceki fotoğraf bilgisini koru
+                        var existingUser = await _service.FindAsync(id);
+                        kullanici.ProfilFoto = existingUser.ProfilFoto;
                     }
 
                     _service.Update(kullanici);
@@ -149,17 +155,21 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Kullanici kullanici)
         {
+
             try
             {
                 _service.Delete(kullanici);
                 _service.Save();
                 return RedirectToAction(nameof(Index));
             }
+
             catch
             {
                 return View();
             }
+
         }
+        
 
 
         [HttpPost]
@@ -170,17 +180,20 @@ namespace OtoServisSatis.WebUI.Areas.Admin.Controllers
 
             if (!string.IsNullOrEmpty(kullanici.ProfilFoto))
             {
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", kullanici.ProfilFoto.TrimStart('/'));
-                if (System.IO.File.Exists(filePath))
-                    System.IO.File.Delete(filePath);
-
-                kullanici.ProfilFoto = null;
-                _service.Update(kullanici);
-                await _service.SaveAsync();
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", kullanici.ProfilFoto.TrimStart('/'));
+                if (System.IO.File.Exists(path)) System.IO.File.Delete(path);
             }
+
+
+
+            kullanici.ProfilFoto = null;
+            _service.Update(kullanici);
+            await _service.SaveAsync();
 
             return RedirectToAction("Edit", new { id });
         }
 
+
+        
     }
 }

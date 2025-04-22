@@ -13,6 +13,9 @@ namespace OtoServisSatis.Service.Concrete
     {
         public UserService(DatabaseContext context) : base(context)
         {
+
+
+
         }
     }
 }

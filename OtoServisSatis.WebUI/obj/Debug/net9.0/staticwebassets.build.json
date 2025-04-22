@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fdl/eS3qmdvSe0sVJ0kOZLGKXIL7SEMaRAgghVECDDs=",
+  "Hash": "ooHsvVEGzsRx4QC0GAZ+2dwpOJYL87jw7Jxxv5U3JMM=",
   "Source": "OtoServisSatis.WebUI",
   "BasePath": "_content/OtoServisSatis.WebUI",
   "Mode": "Default",
@@ -4593,6 +4593,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Uploads/Users/0413dd74-b394-4b3d-afa8-dfbf588bc753#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aca2ww7t6o",
+      "Integrity": "2vDW81QBLsZKcoM9GVc8D63sXrkvq21QOOKiPCgZXYA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Uploads/Users/3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udy47bcxp1",
+      "Integrity": "EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3c596d63-1280-4e43-a02a-bcd3d3589eda.png",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Uploads/Users/3c596d63-1280-4e43-a02a-bcd3d3589eda#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dbjhhislx5",
+      "Integrity": "CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\3c596d63-1280-4e43-a02a-bcd3d3589eda.png"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\534a4c91-1410-420d-be28-0179d0ea24c7.png",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Uploads/Users/534a4c91-1410-420d-be28-0179d0ea24c7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "udy47bcxp1",
+      "Integrity": "EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\534a4c91-1410-420d-be28-0179d0ea24c7.png"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Uploads/Users/97562e59-a3ef-4c8a-b9d8-e996f64e70d6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dbjhhislx5",
+      "Integrity": "CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png"
+    },
+    {
+      "Identity": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png",
+      "SourceId": "OtoServisSatis.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\",
+      "BasePath": "_content/OtoServisSatis.WebUI",
+      "RelativePath": "Uploads/Users/dcafcf7a-5c0b-4faa-aa08-39536d67201c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eo55eesxuo",
+      "Integrity": "Ao7Geq1maJrxXrn5aLyJH3E4fPyBUjenrfPQh5FKDec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Users\\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png"
     }
   ],
   "Endpoints": [
@@ -33189,6 +33315,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-Bed1inNqegIjW9hNOCvK/08kGHlRV7jc+0E0cwilEEo="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/0413dd74-b394-4b3d-afa8-dfbf588bc753.aca2ww7t6o.jpg",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vDW81QBLsZKcoM9GVc8D63sXrkvq21QOOKiPCgZXYA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 13:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aca2ww7t6o"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Users/0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vDW81QBLsZKcoM9GVc8D63sXrkvq21QOOKiPCgZXYA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2vDW81QBLsZKcoM9GVc8D63sXrkvq21QOOKiPCgZXYA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 13:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2vDW81QBLsZKcoM9GVc8D63sXrkvq21QOOKiPCgZXYA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:18:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.udy47bcxp1.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:18:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "udy47bcxp1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Users/3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/3c596d63-1280-4e43-a02a-bcd3d3589eda.dbjhhislx5.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3c596d63-1280-4e43-a02a-bcd3d3589eda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbjhhislx5"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Users/3c596d63-1280-4e43-a02a-bcd3d3589eda.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/3c596d63-1280-4e43-a02a-bcd3d3589eda.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\3c596d63-1280-4e43-a02a-bcd3d3589eda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:44:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/534a4c91-1410-420d-be28-0179d0ea24c7.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\534a4c91-1410-420d-be28-0179d0ea24c7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/534a4c91-1410-420d-be28-0179d0ea24c7.udy47bcxp1.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\534a4c91-1410-420d-be28-0179d0ea24c7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "udy47bcxp1"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Users/534a4c91-1410-420d-be28-0179d0ea24c7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/97562e59-a3ef-4c8a-b9d8-e996f64e70d6.dbjhhislx5.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbjhhislx5"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Users/97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "229643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/dcafcf7a-5c0b-4faa-aa08-39536d67201c.eo55eesxuo.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ao7Geq1maJrxXrn5aLyJH3E4fPyBUjenrfPQh5FKDec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eo55eesxuo"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Users/dcafcf7a-5c0b-4faa-aa08-39536d67201c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ao7Geq1maJrxXrn5aLyJH3E4fPyBUjenrfPQh5FKDec="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Users/dcafcf7a-5c0b-4faa-aa08-39536d67201c.png",
+      "AssetFile": "C:\\Users\\Feride\\Source\\Repos\\Demirbas_Zimmet_d\\OtoServisSatis.WebUI\\wwwroot\\Uploads\\Users\\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ao7Geq1maJrxXrn5aLyJH3E4fPyBUjenrfPQh5FKDec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:20:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ao7Geq1maJrxXrn5aLyJH3E4fPyBUjenrfPQh5FKDec="
         }
       ]
     }

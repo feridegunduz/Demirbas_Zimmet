@@ -8,38 +8,31 @@
 <hr />
 
 <div class="row justify-content-center">
-    <div class="col-md-6">
+    <div class="col-md-8">
         <div class="card shadow-lg rounded-3">
             <div class="card-body">
-                <form asp-action="UserUpdate">
+
+                <label> </label>
+
+                <!-- Ortalanmış profil fotoğrafı + ad soyad + buton -->
+                <div class="text-center mb-4">
+                    <img src="@Model.ProfilFoto" width="200" class="img-thumbnail mb-2" />
+                    <h4 class="mb-2">@Model.Adi @Model.Soyadi</h4>
+                    <form asp-action="ProfilFotoSil" asp-controller="Users" asp-area="Admin" method="post">
+                        @Html.AntiForgeryToken()
+
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <button type="submit" class="btn btn-sm btn-outline-danger">Fotoğrafı Kaldır</button>
+                    </form>
+                </div>
+
+                <!-- Kullanıcı Güncelleme Formu -->
+                <form asp-action="UserUpdate" asp-controller="Account" enctype="multipart/form-data" method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-                    <!-- Gerekirse aşağıdaki hidden input'lar açılabilir -->
-                    @* <input type="hidden" asp-for="Id" />
-                       <input type="hidden" asp-for="EklenmeTarihi" />
-                       <input type="hidden" asp-for="UserGuid" />
-                       <input type="hidden" asp-for="RolId" /> *@
-
-
-                    <!-- Profil Fotoğrafı -->
-                    <div class="form-group mb-3 text-center">
-                        @if (!string.IsNullOrEmpty(Model.ProfilFoto))
-                        {
-                            <img src="@Model.ProfilFoto" width="100" class="img-thumbnail mb-2" />
-                            <form asp-action="ProfilFotoSil" method="post">
-                                <input type="hidden" name="id" value="@Model.Id" />
-                                <button type="submit" class="btn btn-sm btn-outline-danger">Fotoğrafı Kaldır</button>
-                            </form>
-                        }
-                        else
-                        {
-                            <p class="text-muted">Henüz bir profil fotoğrafı eklemediniz.</p>
-                        }
-
-                        <div class="mt-2">
-                            <label class="form-label">Yeni Profil Fotoğrafı</label>
-                            <input type="file" name="ProfilResim" class="form-control" />
-                        </div>
+                    <div class="form-group mb-3">
+                        <label>Yeni Profil Fotoğrafı</label>
+                        <input type="file" name="ProfilResim" class="form-control" />
                     </div>
 
                     <div class="form-group mb-3">
@@ -81,6 +74,7 @@
                         <button type="submit" class="btn btn-primary btn-lg">Kaydet</button>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>

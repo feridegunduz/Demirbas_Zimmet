@@ -697,10 +697,10 @@ C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\ne
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OtoServisSatis.WebUI.props
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OtoServisSatis.WebUI.props
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\OtoServi.9FCF0463.Up2Date
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\OtoServisSatis.WebUI.dll
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\refint\OtoServisSatis.WebUI.dll
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\OtoServisSatis.WebUI.pdb
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\OtoServisSatis.WebUI.genruntimeconfig.cache
 C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\ref\OtoServisSatis.WebUI.dll
+C:\Users\Feride\Source\Repos\Demirbas_Zimmet_d\OtoServisSatis.WebUI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

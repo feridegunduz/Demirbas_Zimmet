@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtoServisSatis.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+418f5881582ce93588f422de5f6e6f3d8fedaf7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4c40e594ab12f707427cc5bb91340503f711b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtoServisSatis.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtoServisSatis.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

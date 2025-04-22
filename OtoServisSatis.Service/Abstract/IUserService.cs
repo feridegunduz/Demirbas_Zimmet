@@ -9,5 +9,6 @@ namespace OtoServisSatis.Service.Abstract
 {
     public interface IUserService : IUserRepository
     {
+
     }
 }

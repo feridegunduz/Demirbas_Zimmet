@@ -28,6 +28,7 @@ namespace OtoServisSatis.WebUI.Controllers
         {
             var email = User.FindFirst(ClaimTypes.Email)?.Value;
             var uguid = User.FindFirst(ClaimTypes.UserData)?.Value;
+
             if (!string.IsNullOrEmpty(email) || !string.IsNullOrEmpty(uguid))
             {
                 var user = _service.Get(k => k.Email == email && k.UserGuid.ToString() == uguid);
@@ -43,44 +44,61 @@ namespace OtoServisSatis.WebUI.Controllers
 
 
         [HttpPost]
-
-        public IActionResult UserUpdate(Kullanici kullanici)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UserUpdate(Kullanici kullanici, IFormFile? ProfilResim)
         {
             try
             {
                 var email = User.FindFirst(ClaimTypes.Email)?.Value;
                 var uguid = User.FindFirst(ClaimTypes.UserData)?.Value;
+
                 if (!string.IsNullOrEmpty(email) || !string.IsNullOrEmpty(uguid))
                 {
                     var user = _service.Get(k => k.Email == email && k.UserGuid.ToString() == uguid);
                     if (user != null)
                     {
-                        user.Adi = kullanici.Adi;
-                        user.AktifMi = kullanici.AktifMi;
-                        user.Email = kullanici.Email;
-                        user.UserGuid = kullanici.UserGuid;
-                        user.Sifre = kullanici.Sifre;
-                        user.EklenmeTarihi = kullanici.EklenmeTarihi;
-                        user.Soyadi = kullanici.Soyadi;
-                        user.Telefon = kullanici.Telefon;
+                        // Profil fotoğrafı kontrolü
+                        if (ProfilResim != null)
+                        {
+                          
+                            // Eski fotoğraf varsa sil
+                            if (!string.IsNullOrEmpty(user.ProfilFoto))
+                            {
+                                var oldPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", user.ProfilFoto.TrimStart('/'));
+                                if (System.IO.File.Exists(oldPath)) System.IO.File.Delete(oldPath);
+                            }
 
-                        //kullanici.EklenmeTarihi = user.EklenmeTarihi;
-                        //kullanici.Id = user.Id;
-                        //kullanici.RolId = user.RolId;
-                        //kullanici.UserGuid = user.UserGuid;
+                            // Yeni fotoğrafı kaydet
+                            var fileName = Guid.NewGuid() + Path.GetExtension(ProfilResim.FileName);
+                            var savePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Uploads/Users", fileName);
+                            using (var stream = new FileStream(savePath, FileMode.Create))
+                                await ProfilResim.CopyToAsync(stream);
+
+                            user.ProfilFoto = "/Uploads/Users/" + fileName;
+                        }
+
+                        // Diğer bilgileri güncelle
+                        user.Adi = kullanici.Adi;
+                        user.Soyadi = kullanici.Soyadi;
+                        user.Email = kullanici.Email;
+                        user.Telefon = kullanici.Telefon;
+                        user.Sifre = kullanici.Sifre; // opsiyonel, şifre hash'lenmeden kaydediliyorsa dikkat
+                        user.AktifMi = kullanici.AktifMi;
+
                         _service.Update(user);
                         _service.Save();
-                    }
+                    } 
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                ModelState.AddModelError("", "Hata Oluştu");
+                // Geliştirilmiş hata kontrolü
+                ModelState.AddModelError("", "Hata Oluştu: " + ex.Message);
             }
 
             return RedirectToAction("Index");
         }
+
 
         public IActionResult Register()
         {
@@ -194,6 +212,13 @@ namespace OtoServisSatis.WebUI.Controllers
 
 
         }
+
+
+
+       
+
+
+
 
 
 

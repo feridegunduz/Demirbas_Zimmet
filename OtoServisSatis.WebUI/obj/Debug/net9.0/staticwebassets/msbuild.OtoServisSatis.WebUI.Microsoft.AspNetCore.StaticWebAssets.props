@@ -2466,5 +2466,113 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\OtoServisSatis.WebUI.pgbnxg0lnj.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OtoServisSatis.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OtoServisSatis.WebUI</BasePath>
+      <RelativePath>Uploads/Users/0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>aca2ww7t6o</Fingerprint>
+      <Integrity>2vDW81QBLsZKcoM9GVc8D63sXrkvq21QOOKiPCgZXYA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\0413dd74-b394-4b3d-afa8-dfbf588bc753.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OtoServisSatis.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OtoServisSatis.WebUI</BasePath>
+      <RelativePath>Uploads/Users/3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>udy47bcxp1</Fingerprint>
+      <Integrity>EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\3229f6e4-ebfb-4d5b-b42f-74fa1f8aed71.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\3c596d63-1280-4e43-a02a-bcd3d3589eda.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OtoServisSatis.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OtoServisSatis.WebUI</BasePath>
+      <RelativePath>Uploads/Users/3c596d63-1280-4e43-a02a-bcd3d3589eda.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dbjhhislx5</Fingerprint>
+      <Integrity>CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\3c596d63-1280-4e43-a02a-bcd3d3589eda.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\534a4c91-1410-420d-be28-0179d0ea24c7.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OtoServisSatis.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OtoServisSatis.WebUI</BasePath>
+      <RelativePath>Uploads/Users/534a4c91-1410-420d-be28-0179d0ea24c7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>udy47bcxp1</Fingerprint>
+      <Integrity>EvqTap44W+MVupizIe6rV4MmDD5kIVjBg9hK/XeK7uQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\534a4c91-1410-420d-be28-0179d0ea24c7.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OtoServisSatis.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OtoServisSatis.WebUI</BasePath>
+      <RelativePath>Uploads/Users/97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dbjhhislx5</Fingerprint>
+      <Integrity>CbXVAjVbTgFydzgeotxBf1ne+Dt7Ra89F/7Z/MGh4+I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\97562e59-a3ef-4c8a-b9d8-e996f64e70d6.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OtoServisSatis.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OtoServisSatis.WebUI</BasePath>
+      <RelativePath>Uploads/Users/dcafcf7a-5c0b-4faa-aa08-39536d67201c.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eo55eesxuo</Fingerprint>
+      <Integrity>Ao7Geq1maJrxXrn5aLyJH3E4fPyBUjenrfPQh5FKDec=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Users\dcafcf7a-5c0b-4faa-aa08-39536d67201c.png'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>
